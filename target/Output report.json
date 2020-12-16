@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login test",
+        "description": "",
+        "id": "sucessful-login;login-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18468596800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is already on login page",
+            "match": {
+              "location": "StepDefinitions.user_is_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22344200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Title of the login page",
+            "match": {
+              "location": "StepDefinitions.title_of_the_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 599421800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters the id \u0026 password",
+            "match": {
+              "location": "StepDefinitions.user_enters_the_id_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 256414200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks the login button",
+            "match": {
+              "location": "StepDefinitions.user_clicks_the_login_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6174755700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters the homepage",
+            "match": {
+              "location": "StepDefinitions.user_enters_the_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Sucessful Login",
+    "description": "",
+    "id": "sucessful-login",
+    "keyword": "Feature",
+    "uri": "C:/Users/Star Kishan/eclipse-workspace/CucmberFramework/src/main/java/Features/login.feature"
+  }
+]
