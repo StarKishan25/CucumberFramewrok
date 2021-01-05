@@ -34,21 +34,22 @@ public class StepDefinitions {
 //	2. \"([^\"]*)\"
 	
 	@Then("^User enters the \"(.*)\" & \"(.*)\"$")
-	public void user_enters_the_id_password(String username, String password) {
+	public void user_enters_the_id_password(String username, String password) throws Exception {
 		driver.findElement(By.id("email")).sendKeys(username);
 		driver.findElement(By.name("pass")).sendKeys(password);
+		Thread.sleep(2000);
 	}
 
-	@Then("^User clicks the login button$")
-	public void user_clicks_the_login_button() {
-		driver.findElement(By.name("login")).click();
-	}
+//	@Then("^User clicks the login button$")
+//	public void user_clicks_the_login_button() {
+//		driver.findElement(By.name("login")).click();
+//	}
 
-	@Then("^User enters the homepage$")
-	public void user_enters_the_homepage() {
-		String title = driver.getTitle();
-		System.out.println("Home page tite: "+title);
-	}
+//	@Then("^User enters the homepage$")
+//	public void user_enters_the_homepage() {
+//		String title = driver.getTitle();
+//		System.out.println("Home page tite: "+title);
+//	}
 
 	@Then("^close the browser$")
 	public void close_the_browser()  {
