@@ -17,7 +17,7 @@ import cucumber.api.junit.Cucumber;
 	//plugin = { "pretty","html:C:/Users/Star Kishan/eclipse-workspace/CucmberFramework/target/Output report.html" },
 //	format = {"pretty","html:C:/Users/Star Kishan/eclipse-workspace/CucmberFramework/target/Output report.html"},
 	monochrome = true, //displays the console o/p in readable format
-//	strict = true, // it checks any steps is not defined in step def file
+	strict = true, // it checks any steps is not defined in step def file
 	dryRun = true, //checks all steps have step def or not
 	plugin = { "pretty","json:C:/Users/Star Kishan/eclipse-workspace/CucmberFramework/JVM/ramk.json"},
 	snippets = SnippetType.CAMELCASE	
